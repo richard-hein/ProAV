@@ -1,11 +1,38 @@
 const products = [
+  
+  {
+   
+    name: "iPhone 17 Pro 256GB Memory",
+    image: "/images/iphone.jpg",
+    description:
+      "Introducing the iPhone 17 Pro. A transformative triple-camera system that adds tons of capability without complexity. An unprecedented leap in battery life",
+    brand: "Apple",
+    category: "Electronics",
+    price: 999.99,
+    countInStock: 7,
+    rating: 4.0,
+    numReviews: 8,
+  },
+   {
+    
+    name: "Samsung S25 Ultra",
+    image: "/images/samsungs25.jpg",
+    description:
+      "The Galaxy S25 Ultra redefines the premium smartphone experience by blending a sophisticated new design with the most advanced AI capabilities ever seen in a mobile device. Now featuring a thinner, lighter body with rounded corners for superior comfort, it remains the ultimate tool for power users and creators alike",
+    brand: "Samsung",
+    category: "Electronics",
+    price: 899,
+    countInStock: 10,
+    rating: 4.5,
+    numReviews: 12,
+  },
   {
     
-    name: "Airpods Wireless Bluetooth Headphones",
-    image: "/images/airpods.jpg",
+    name: "Xiaomi 17 pro max",
+    image: "/images/xiaomi.jpg",
     description:
-      "Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience Built-in microphone allows you to take calls while working",
-    brand: "Apple",
+      "Xiaomi 17 promax : Latest Flagship Phone",
+    brand: "Xiaomi",
     category: "Electronics",
     price: 89.99,
     countInStock: 10,
@@ -13,17 +40,17 @@ const products = [
     numReviews: 12,
   },
   {
-   
-    name: "iPhone 13 Pro 256GB Memory",
-    image: "/images/phone.jpg",
+    
+    name: "Apple Watch",
+    image: "/images/apple_watch.jpg",
     description:
-      "Introducing the iPhone 13 Pro. A transformative triple-camera system that adds tons of capability without complexity. An unprecedented leap in battery life",
+      "Apple Watch For Health and Smart Lifestyle",
     brand: "Apple",
     category: "Electronics",
-    price: 599.99,
-    countInStock: 7,
-    rating: 4.0,
-    numReviews: 8,
+    price: 89.99,
+    countInStock: 10,
+    rating: 4.5,
+    numReviews: 12,
   },
   {
     
@@ -49,6 +76,19 @@ const products = [
     price: 399.99,
     countInStock: 11,
     rating: 5,
+    numReviews: 12,
+  },
+   {
+    
+    name: "True TWS",
+    image: "/images/tws.jpg",
+    description:
+      "Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience Built-in microphone allows you to take calls while working",
+    brand: "Remax",
+    category: "Electronics",
+    price: 89.99,
+    countInStock: 10,
+    rating: 4.5,
     numReviews: 12,
   },
   {
@@ -77,6 +117,46 @@ const products = [
     rating: 4,
     numReviews: 12,
   },
+  {
+    
+    name: "Apple Mac Book",
+    image: "/images/macbook.jpg",
+    description:
+      "Apple MacBook with the most powerful chipset",
+    brand: "Apple",
+    category: "Electronics",
+    price: 989.99,
+    countInStock: 10,
+    rating: 4.5,
+    numReviews: 12,
+  },
+  {
+    
+    name: "Airpods Wireless Bluetooth Headphones",
+    image: "/images/airpods.jpg",
+    description:
+      "Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience Built-in microphone allows you to take calls while working",
+    brand: "Apple",
+    category: "Electronics",
+    price: 89.99,
+    countInStock: 10,
+    rating: 4.5,
+    numReviews: 12,
+  },
+  {
+    
+    name: "True TWS",
+    image: "/images/tws.jpg",
+    description:
+      "Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience Built-in microphone allows you to take calls while working",
+    brand: "Remax",
+    category: "Electronics",
+    price: 89.99,
+    countInStock: 10,
+    rating: 4.5,
+    numReviews: 12,
+  },
+   
 ];
  
 export default products;
